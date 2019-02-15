@@ -1,34 +1,33 @@
 import React from "react";
-import { Slide, Text, Link } from "spectacle";
+import { Appear, Slide, Text, List, ListItem } from "spectacle";
 
 const notes = `
-  Updating attributes won't remove the DOM node. Instead, React will only update that attribute.
+  Optional really means optional, ts will still emit despite errors<br /><br />
+  Your JavaScript is valid TypeScript<br /><br />
+  Just add TS to build tool, change everything to .ts<br /><br />
+  Not about to tell you to rewrite your entire code base, this can be helpful _now_<br /><br />
+  Also get access to new ECMAScript features, like decorators<br /><br />
 `;
 
 export default function() {
   return (
     <Slide bgColor="primary" textAlign="left" notes={notes}>
-      <Text textSize={22} italic>
-        Two elements of different types will produce different trees
-      </Text>
-
       <Text bold textColor="dark">
-        Updating attributes will reuse the underlying DOM
+        TypeScript's Design Motivations
       </Text>
 
-      <div style={{ marginTop: 40 }}>
-        <img
-          src={require("../media/tree-2.svg")}
-          alt="Tree showing different attributes"
-        />
-      </div>
-
-      <div style={{ fontSize: 18, marginTop: 60, lineHeight: "2rem" }}>
-        Changing Attributes:{" "}
-        <Link target="_blank" href="https://codesandbox.io/s/jz0o5zn6oy">
-          https://codesandbox.io/s/jz0o5zn6oy
-        </Link>
-      </div>
+      <List>
+        <Appear>
+          <ListItem>
+            Put an optional type system over JavaScript.
+          </ListItem>
+        </Appear>
+        <Appear>
+          <ListItem>
+            Maintain TypeScript as a superset of JavaScript.
+          </ListItem>
+        </Appear>
+      </List>
     </Slide>
   );
 }

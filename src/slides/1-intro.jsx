@@ -5,17 +5,17 @@ const notes = `
   Introduction<br />
   - Name<br />
   - Title & Company<br /><br />
-  We will be looking at easy wins to make React fast
+  We'll be discussing TypeScript, and what benefits it can have to your development cycle.
 `;
 
 export default function() {
   return (
     <Slide bgColor="primary" textAlign="center" notes={notes}>
       <Heading size={1} textColor="secondary" fit caps lineHeight={1.2}>
-        Making {"<React />"} Wicked Fast
+        Why Typescript?
       </Heading>
       <Text bold textColor="tertiary" textSize="2rem">
-        Dylan Paulus
+        Camden Clark
       </Text>
     </Slide>
   );
