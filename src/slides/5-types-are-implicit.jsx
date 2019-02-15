@@ -2,7 +2,7 @@ import React from "react";
 import { Slide, Text, CodePane } from "spectacle";
 
 const notes = `
-  Talk about keys
+
 `;
 
 export default function() {
@@ -13,9 +13,6 @@ export default function() {
         different renders with a key prop
       </Text>
 
-      <Text bold textColor="dark">
-        Static lists are easy to see what got added, removed, or moved
-      </Text>
 
       <div style={{ display: "flex", flexDirection: "row", marginTop: 60 }}>
         <CodePane
