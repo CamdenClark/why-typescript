@@ -1,4 +1,4 @@
-# Making React Fast
+# Why Typescript? 
 
 This is a presentation for the Boise Code Camp (2019)
 

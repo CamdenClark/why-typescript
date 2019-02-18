@@ -5,4 +5,5 @@ export { default as Four } from "./4-design-motivation";
 export { default as Five } from "./5-types-are-implicit";
 export { default as Six } from "./6-any-type";
 export { default as Seven } from "./7-still-emits";
+export { default as Eight } from "./8-structural-typing";
 export { default as Questions } from "./999-questions";

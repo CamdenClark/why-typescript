@@ -12,9 +12,9 @@ export default function() {
 
       <Link
         target="_blank"
-        href="https://github.com/ganderzz/making-react-fast"
+        href="https://github.com/CamdenClark/why-typescript"
       >
-        (https://github.com/ganderzz/making-react-fast)
+        (https://github.com/CamdenClark/why-typescript)
       </Link>
     </Slide>
   );

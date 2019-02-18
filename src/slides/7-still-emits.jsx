@@ -30,8 +30,7 @@ export default function() {
           lang="javascript"
           source={`let myNumber = 4;
 myNumber = "I'm a string now"; 
-// Compiler error, myNumber was 
-// initialized as a number`}
+// Still builds JS`}
         />
       </div>
 

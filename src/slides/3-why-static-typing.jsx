@@ -9,6 +9,10 @@ const notes = `
   Types also function well as smart documentation<br />
     -- in math terms, type is the theorem, function body is the proof<br />
     -- can see the shape of objects without consulting external documentation, huge process improvements<br />
+
+  Types also provide certain guarantees that help you catch bugs<br />
+    -- undefined is not a function errors<br />
+    -- prevents another cycle of building, recreating error, and diagnosing it<br />
 `;
 
 export default function() {
@@ -29,6 +33,11 @@ export default function() {
             <Appear>
               <ListItem>
                 Work well as documentation
+              </ListItem>
+            </Appear>
+            <Appear>
+              <ListItem>
+                Easily diagnose an entire class of bugs
               </ListItem>
             </Appear>
           </List>

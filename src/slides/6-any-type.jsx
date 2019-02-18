@@ -11,8 +11,8 @@ export default function() {
       <Text textSize={30} italic>
         Q: What about all my existing code, do I have to provide type annotations?
       </Text>
-      <Text textSize={30} italic>
-        <strong>A: No. </strong>
+      <Text textSize={30} bold>
+        A: No.
       </Text>
       <Text textSize={30}>
         TypeScript has an <span style={{ fontFamily: "Courier New "}}>any</span> type.
