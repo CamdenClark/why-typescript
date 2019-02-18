@@ -8,8 +8,14 @@ const notes = `
 export default function() {
   return (
     <Slide bgColor="primary" textAlign="left" notes={notes}>
+      <Text textSize={30} italic>
+        Q: Will TypeScript errors prevent me from building? 
+      </Text>
+      <Text textSize={30} italic>
+        <strong>A: Not unless you want it to.</strong>
+      </Text>
       <Text textSize={30}>
-        In TypeScript, types are either implicit or are annotated explicitly.
+        TypeScript has lots of compiler options, so you can adjust many features. For example, you can still emit JavaScript if there are compiler errors.
       </Text>
 
       <div style={{ display: "flex", flexDirection: "row", marginTop: 60 }}>
@@ -27,21 +33,11 @@ myNumber = "I'm a string now";
 // Compiler error, myNumber was 
 // initialized as a number`}
         />
-
-        <CodePane
-          style={{
-            display: "flex",
-            width: "50%",
-            minWidth: "50%",
-            maxWidth: "50%",
-            fontSize: 38,
-            margin: 0
-          }}
-          lang="javascript"
-          source={`let myNumber: string = 4;
-// Error: Can't assign number to string`}
-        />
       </div>
+
+      <Text textSize={40} bold style={{ marginTop: 100 }}>
+        Even if, on conversion to TypeScript, you have some errors, you can still keep working.
+      </Text>
     </Slide>
   );
 }

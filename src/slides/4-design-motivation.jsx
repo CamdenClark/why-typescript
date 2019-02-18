@@ -28,6 +28,12 @@ export default function() {
           </ListItem>
         </Appear>
       </List>
+
+      <Appear>
+        <Text textSize={40} bold style={{ marginTop: 100 }}>
+          Your JavaScript is TypeScript.
+        </Text>
+      </Appear>
     </Slide>
   );
 }
