@@ -6,4 +6,8 @@ export { default as Five } from "./5-types-are-implicit";
 export { default as Six } from "./6-any-type";
 export { default as Seven } from "./7-still-emits";
 export { default as Eight } from "./8-structural-typing";
+export { default as Nine } from "./9-declaration-files";
+export { default as Ten } from "./10-not-runtime";
+export { default as LiveDemo } from "./997-live-demo";
+export { default as Resources } from "./998-resources";
 export { default as Questions } from "./999-questions";

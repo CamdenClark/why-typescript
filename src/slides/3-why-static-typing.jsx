@@ -1,5 +1,5 @@
 import React from "react";
-import { Appear, Slide, Text, List, ListItem, Image, Fit, Layout, Fill } from "spectacle";
+import { Slide, Text, List, ListItem, Image, Fit, Layout, Fill } from "spectacle";
 
 const notes = `
   Static typing is a great candidate<br />
@@ -25,21 +25,15 @@ export default function() {
           </Text>
 
           <List>
-            <Appear>
-              <ListItem>
-                Make IDEs significantly more powerful
-              </ListItem>
-            </Appear>
-            <Appear>
-              <ListItem>
-                Work well as documentation
-              </ListItem>
-            </Appear>
-            <Appear>
-              <ListItem>
-                Easily diagnose an entire class of bugs
-              </ListItem>
-            </Appear>
+            <ListItem>
+              Make IDEs significantly more powerful
+            </ListItem>
+            <ListItem>
+              Work well as documentation
+            </ListItem>
+            <ListItem>
+              Easily diagnose an entire class of bugs
+            </ListItem>
           </List>
         </Fit>
         <Fill>

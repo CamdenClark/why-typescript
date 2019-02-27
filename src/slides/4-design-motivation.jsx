@@ -17,16 +17,12 @@ export default function() {
       </Text>
 
       <List>
-        <Appear>
-          <ListItem>
-            Put an optional type system over JavaScript.
-          </ListItem>
-        </Appear>
-        <Appear>
-          <ListItem>
-            Maintain TypeScript as a superset of JavaScript.
-          </ListItem>
-        </Appear>
+        <ListItem>
+          Put an optional type system over JavaScript.
+        </ListItem>
+        <ListItem>
+          Maintain TypeScript as a superset of JavaScript.
+        </ListItem>
       </List>
 
       <Appear>

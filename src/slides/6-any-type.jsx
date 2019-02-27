@@ -30,7 +30,7 @@ export default function() {
           lang="javascript"
           source={`const getExtension(filename) => {
   // filename variable has any type, which means
-  // TypeScript assumes any property is valid
+  // TypeScript assumes any property or method is valid
   const tokens = filename.split('.');
   return tokens[tokens.length - 1];
 } // no error`}
