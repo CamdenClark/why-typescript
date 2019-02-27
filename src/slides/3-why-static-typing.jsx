@@ -25,10 +25,10 @@ export default function() {
           </Text>
 
           <List>
-            <ListItem>
+            <ListItem style={{ marginBottom: 100}}>
               Make IDEs significantly more powerful
             </ListItem>
-            <ListItem>
+            <ListItem style={{ marginBottom: 100}}>
               Work well as documentation
             </ListItem>
             <ListItem>
