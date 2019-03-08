@@ -1,5 +1,5 @@
 import React from "react";
-import { Heading, Slide, Text } from "spectacle";
+import { Heading, Slide, Text, Image } from "spectacle";
 
 const notes = `
   Introduction<br />
@@ -17,6 +17,7 @@ export default function() {
       <Text bold textColor="tertiary" textSize="2rem">
         Camden Clark
       </Text>
+      <Image src={require('../media/logo.png')}  />
     </Slide>
   );
 }

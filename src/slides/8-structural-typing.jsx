@@ -3,6 +3,7 @@ import { Slide, Text, CodePane } from "spectacle";
 
 const notes = `
 
+  If it quacks like a duck, and looks like a duck, it's a duck.
 `;
 
 export default function() {
@@ -12,7 +13,7 @@ export default function() {
         Q: Do I need a ton of boilerplate to convert between types like in C# or Java?
       </Text>
       <Text textSize={30} bold>
-        A: Nope. Types in TypeScript are structural, not nominal.
+        A: Nope. Types in TypeScript are structural, not nominal. (duck typing)
       </Text>
       <Text textSize={30}>
         This means that when performing type checking, TypeScript compares the properties, as opposed to the names of the types.

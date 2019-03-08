@@ -2,7 +2,11 @@ import React from "react";
 import { Slide, Text, CodePane } from "spectacle";
 
 const notes = `
+  Even if you have a bunch of errors while transitioning to TS, you can tell the compiler to still emit JS.<br /><br />
 
+  This allows you to keep moving quickly.<br /><br />
+
+  Aside from this, there's a ton of options in the compiler that allow you to choose how much type safety you really want, and some linting options.
 `;
 
 export default function() {

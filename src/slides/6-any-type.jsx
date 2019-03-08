@@ -2,7 +2,13 @@ import React from "react";
 import { Slide, Text, CodePane } from "spectacle";
 
 const notes = `
+  Especially when first transitioning, you'll use any a lot.<br /><br />
 
+  The any type tells the typescript that object has any properties, nested deeply.<br /><br />
+
+  This means that any causes the compiler to provide you no type safety.<br /><br />
+
+  Sometimes useful for getting up and running, or avoiding issues with an outdated library typedef.
 `;
 
 export default function() {
