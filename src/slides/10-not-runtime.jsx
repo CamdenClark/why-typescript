@@ -2,7 +2,15 @@ import React from "react";
 import { Slide, Text, CodePane } from "spectacle";
 
 const notes = `
+  TYPES IN TYPESCRIPT ARE AT COMPILE TIME<br /><br />
 
+  The compiler won't save you if you circumvent it.<br /><br />
+
+  Additionally, this means that you can't check the TypeScript type of something at runtime.<br /><br />
+
+  TypeScript has "type guards" that infer stuff about the types of your objects.<br /><br />
+
+  Make sure you aren't abusing the flexibility of TypeScript, or you can get nasty errors in production.
 `;
 
 export default function() {

@@ -2,7 +2,11 @@ import React from "react";
 import { Slide, Text, Code } from "spectacle";
 
 const notes = `
+  Most popular libraries have type definitions already.<br /><br />
 
+  If not, you can still use the library, just won't have any type safety.<br /><br />
+
+  Luckily, creating a type definition from API docs isn't too tough.
 `;
 
 export default function() {

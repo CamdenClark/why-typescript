@@ -2,8 +2,11 @@ import React from "react";
 import { Slide, Text, CodePane } from "spectacle";
 
 const notes = `
+  Automapper is really important in lots of C# projects, especially when dealing with models that are really close to each other in shape and relationship.<br /><br />
+  Think there's something similar in Java.<br /><br />
+  No need with Typescript, since types are compile time.<br /><br />
 
-  If it quacks like a duck, and looks like a duck, it's a duck.
+  According to Typescript, if it quacks like a duck, and looks like a duck, it's a duck.
 `;
 
 export default function() {
