@@ -19,7 +19,7 @@ export default function() {
         A: Nope. Types in TypeScript are structural, not nominal. (duck typing)
       </Text>
       <Text textSize={30}>
-        This means that when performing type checking, TypeScript compares the properties, as opposed to the names of the types.
+        TypeScript compares the properties, as opposed to the names of the types.
       </Text>
 
       <div style={{ display: "flex", flexDirection: "row", marginTop: 40 }}>
@@ -50,10 +50,6 @@ iTakePoint2D(point3D); // extra information okay
 iTakePoint2D({ x: 0 }); // Error: missing y `}
         />
       </div>
-
-      <Text textSize={40} bold style={{ marginTop: 100 }}>
-        Even if, on conversion to TypeScript, you have some errors, you can still keep working.
-      </Text>
     </Slide>
   );
 }

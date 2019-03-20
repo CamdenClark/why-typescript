@@ -46,11 +46,11 @@ function getY(point: Point2D) {
   return point.y;
 }
 
-iTakePoint2D(myPoint); // Compiles fine, but will fail at runtime because myPoint doesn't have a y property`}
+getY(myPoint); // Compiles fine, but will fail at runtime because myPoint doesn't have a y property`}
         />
       </div>
 
-      <Text textSize={40} bold style={{ marginTop: 100 }}>
+      <Text textSize={40} bold>
         Bottom line: Trust the TypeScript compiler, and try to be as explicit as possible with types.
       </Text>
     </Slide>

@@ -43,7 +43,7 @@ export default function() {
         />
       </div>
 
-      <Text textSize={40} bold style={{ marginTop: 100 }}>
+      <Text textSize={40} bold>
         Bottom line, no huge refactors or rewrites should be needed to start using TypeScript.
       </Text>
     </Slide>

@@ -38,7 +38,7 @@ myNumber = "I'm a string now";
         />
       </div>
 
-      <Text textSize={40} bold style={{ marginTop: 100 }}>
+      <Text textSize={40} bold style={{ marginTop: 20 }}>
         Even if, on conversion to TypeScript, you have some errors, you can still keep working.
       </Text>
     </Slide>

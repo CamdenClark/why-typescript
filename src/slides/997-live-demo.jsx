@@ -1,5 +1,5 @@
 import React from "react";
-import { Slide, Heading, Text } from "spectacle";
+import { Slide, Heading, Text, Link } from "spectacle";
 
 const notes = ``;
 
@@ -12,6 +12,14 @@ export default function() {
       <Heading bold fit textColor="dark" lineHeight={0.6}>
         Time for a live demo
       </Heading>
+      <br />
+      <Link
+        target="_blank"
+        href="https://github.com/CamdenClark/demo-why-typescript"
+        style={{ marginTop: 200 }}
+      >
+        Code for demo: (https://github.com/CamdenClark/demo-why-typescript)
+      </Link>
     </Slide>
   );
 }
